@@ -1,0 +1,60 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    background: #445458;
+}
+
+.space {
+    height: 20%;
+}
+
+/* ---------------- This section is required ---------------------*/
+.container {
+    overflow: hidden;
+    border: solid bluer;
+}
+
+.item-container {
+    height: 0px;
+    transition: height 0.3s;
+}
+
+/* ---------------- This section is styles only and not required. ---------------------*/
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: fit-content;
+    border: solid rgba(24, 30, 31, 0.5);
+}
+
+.dropdown-title {
+    padding: 10px 40px 15px 40px;
+    font-weight: 900;
+    font-size: 1.8em;
+    background: #445458;
+    cursor: default;
+    user-select: none;
+}
+
+.dropdown-title:hover {
+    background: rgba(24, 30, 31, 0.5);
+}
+
+.item-text {
+    margin: 0px 0px 0px 0px;
+    padding: 15px 10px 15px 10px;
+    font-size: 1.5em;
+    font-weight: 900;
+    cursor: default;
+    user-select: none;
+}
+
+.item-text:hover {
+    background: rgba(24, 30, 31, 0.5);
+}
