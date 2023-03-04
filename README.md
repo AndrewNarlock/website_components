@@ -16,9 +16,10 @@ Here are codepens for each available component:
 
 
 ***Carousel Basic:***
+
 This carousel allows the user to add and remove images through HTML. To add an image, create a new 'div' with the class 'image-wrapper'. Place 'img' tag with class 'carousel-image' inside of the wrapper with desired path. The carousel will update and can hold any number of images, no js needs to be changed when adding or removing images.
 
-codepen link:
+codepen link: https://codepen.io/narlocka/pen/rNZmgbr
 
 ***Carousel JS Data:***
 This carousel allows the user to add and remove images by adding the image path to a JavaScript array called 'carouselImages'. Add a new object to the array with the key/value of 'imagePath : "URL/path"'. The carousel will update and can hold any number of images, no js needs to be changed when adding or removing images.
