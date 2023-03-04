@@ -1,26 +1,34 @@
 # website_components
-This repository holds responsive front-end components that can be pasted into any website. They are simple and easy to restyle.
-The components are built in HTML, CSS, JavaScript and are meant to use as little coding as possible.
+This repository holds responsive and accessable front-end components that can be pasted into any website. They are simple and easy to restyle.
+The components are built in vanilla HTML, CSS, JavaScript with no dependencies.
 
-HOW TO USE:
+**HOW TO USE:**
 
-Each component is made so that they can be copied, pasted, and redesigned into any basic static website. You will probably want to change file names and sources in your HTML file.
+Each component is made so that they can be copied, pasted, and redesigned into any website.
 
 Here are codepens for each available component:
 
-Hero Image:
+**Hero Image:**
   https://codepen.io/narlocka/pen/abKBwGa
 
-Navigation:
+**Navigation:**
   https://codepen.io/narlocka/pen/jOKMVwE
 
-Carousel:
-  https://codepen.io/narlocka/pen/ZExdejM
 
-Dropdown Menu:
+**Carousel Basic:**
+This carousel allows the user to add and remove images through HTML. To add an image, create a new 'div' with the class 'image-wrapper'. Place 'img' tag with class 'carousel-image' inside of the wrapper with desired path. The carousel will update and can hold any number of images, no js needs to be changed when adding or removing images.
+
+codepen link:
+
+**Carousel JS Data:**
+This carousel allows the user to add and remove images by adding the image path to a JavaScript array called 'carouselImages'. Add a new object to the array with the key/value of 'imagePath : "URL/path"'. The carousel will update and can hold any number of images, no js needs to be changed when adding or removing images.
+
+codepen link:
+
+**Dropdown Menu:**
   https://codepen.io/narlocka/pen/oNqrdZR
 
-Footer:
+**Footer:**
   https://codepen.io/narlocka/pen/MWXbvGL
 
 
