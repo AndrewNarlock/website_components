@@ -11,14 +11,14 @@ Here are codepens for each available component:
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ***Hero Image:***
 
-  https://codepen.io/narlocka/pen/abKBwGa
+ codepen link: https://codepen.io/narlocka/pen/abKBwGa
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ***Navigation:***
 
 This navigation bar is lightweight, repsonisve, and accessible. Links can be easily added and removed.
-  https://codepen.io/narlocka/pen/jOKMVwE
+codepen link: https://codepen.io/narlocka/pen/jOKMVwE
 
 
 
@@ -43,14 +43,14 @@ codepen link: https://codepen.io/narlocka/pen/poOPmmp
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ***Dropdown Menu:***
 
-  https://codepen.io/narlocka/pen/oNqrdZR
+ codepen link: https://codepen.io/narlocka/pen/oNqrdZR
 
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ***Footer:***
 
-  https://codepen.io/narlocka/pen/MWXbvGL
+ codepen link: https://codepen.io/narlocka/pen/MWXbvGL
 
 
 
