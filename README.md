@@ -8,29 +8,52 @@ Each component is made so that they can be copied, pasted, and redesigned into a
 
 Here are codepens for each available component:
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ***Hero Image:***
+
   https://codepen.io/narlocka/pen/abKBwGa
 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ***Navigation:***
+
+This navigation bar is lightweight, repsonisve, and accessible. Links can be easily added and removed.
   https://codepen.io/narlocka/pen/jOKMVwE
 
 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ***Carousel Basic:***
 
 This carousel allows the user to add and remove images through HTML. To add an image, create a new 'div' with the class 'image-wrapper'. Place 'img' tag with class 'carousel-image' inside of the wrapper with desired path. The carousel will update and can hold any number of images, no js needs to be changed when adding or removing images.
 
 codepen link: https://codepen.io/narlocka/pen/rNZmgbr
 
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ***Carousel JS Data:***
-This carousel allows the user to add and remove images by adding the image path to a JavaScript array called 'carouselImages'. Add a new object to the array with the key/value of 'imagePath : "URL/path"'. The carousel will update and can hold any number of images, no js needs to be changed when adding or removing images.
 
-codepen link:
+This carousel allows the user to add and remove images by adding the image path to a JavaScript array called 'carousel-images'. Add a new object to the array with the key/value of 'imagePath : "URL/path"'. The carousel will update and can hold any number of images, no js needs to be changed when adding or removing images.
 
+codepen link: https://codepen.io/narlocka/pen/poOPmmp
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ***Dropdown Menu:***
+
   https://codepen.io/narlocka/pen/oNqrdZR
 
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ***Footer:***
+
   https://codepen.io/narlocka/pen/MWXbvGL
 
 
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 I am planning on adding more components and more styles to this library.
