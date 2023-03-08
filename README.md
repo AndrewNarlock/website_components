@@ -14,11 +14,22 @@ Here are codepens for each available component:
  codepen link: https://codepen.io/narlocka/pen/abKBwGa
 
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-***Navigation:***
 
-This navigation bar is lightweight, repsonisve, and accessible. Links can be easily added and removed.
-codepen link: https://codepen.io/narlocka/pen/jOKMVwE
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+***Navigation Basic:***
+
+This navigation bar is lightweight, repsonsive, and accessible. Links can be easily added and removed without editing the JS. The navigation is easy to copy, paste, and redesign onto any website.
+
+codepen link: https://codepen.io/narlocka/pen/oNPoNqV
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+***Navigation with Dropdown:***
+
+This navigation bar includes a dropdown menu for additional links. Links can be easily added and removed without editing the JS. The navigation is easy to copy, paste, and redesign onto any website.
+
+codepen link: https://codepen.io/narlocka/pen/MWqOWGO
 
 
 
@@ -51,7 +62,6 @@ codepen link: https://codepen.io/narlocka/pen/poOPmmp
 ***Footer:***
 
  codepen link: https://codepen.io/narlocka/pen/MWXbvGL
-
 
 
 
