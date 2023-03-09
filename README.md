@@ -4,9 +4,24 @@ The components are built in vanilla HTML, CSS, JavaScript with no dependencies.
 
 ***HOW TO USE:***
 
-Each component is made so that they can be copied, pasted, and redesigned into any website.
+Each component and template is made so that they can be copied, pasted, and redesigned into any website.
 
-Here are codepens for each available component:
+Here are codepens for each available component and template:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+***Restaurant Website Template:***
+This is a template for a basic restaurant website. It is fully responsive and accessible and is built to be easily restyled. Each component can be moved around or removed completely. Menus are updated automatically by adding food information into the menudata.js file. 
+
+A demo of the template can be viewed here: https://andrewnarlock.github.io/Restaurant-Website-Template/
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------***Brochure Website Template:***
+This is a template for a basic brochure or informational website. It is fully responsive and accessible and the styles can be easily adjusted. 
+
+A demo of the template can be viewed here: https://andrewnarlock.github.io/Brochure-Website-Template/
+
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ***Hero Image:***
@@ -62,21 +77,6 @@ codepen link: https://codepen.io/narlocka/pen/poOPmmp
 ***Footer:***
 
  codepen link: https://codepen.io/narlocka/pen/MWXbvGL
-
-
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-***Restaurant Website Template:***
-This is a template for a basic restaurant website. It is fully responsive and accessible and is built to be easily restyled. Each component can be moved around or removed completely. Menus are updated automatically by adding food information into the menudata.js file. 
-
-A demo of the template can be viewed here: https://andrewnarlock.github.io/Restaurant-Website-Template/
-
-
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------***Brochure Website Template:***
-This is a template for a basic brochure or informational website. It is fully responsive and accessible and the styles can be easily adjusted. 
-
-A demo of the template can be viewed here: https://andrewnarlock.github.io/Brochure-Website-Template/
 
 
 
