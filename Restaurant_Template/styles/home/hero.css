@@ -1,0 +1,105 @@
+.hero-image-container {
+    width: 100%;
+}
+
+.hero-image {
+    width: 100%;
+    position: relative;
+}
+
+.hero-greeting-container {
+    position: absolute;
+    width: 60%;
+    margin-top: -25%;
+    letter-spacing: 1.5px;
+}
+
+.hero-title {
+    margin-left: 30%;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.hero-message {
+    width: 60%;
+    margin-top: 4%;
+    margin-left: 30%;
+    font-size: 16px;
+}
+
+.hero-button {
+    margin-top: 4%;
+    margin-left: 30%;
+    width: 120px;
+    font-size: 16px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 0%;
+    border: none;
+}
+
+.hero-button:hover {
+    background-color: beige;
+    cursor: pointer;
+}
+
+@media (max-width: 1440px) {
+    .hero-title {
+        font-size: 30px;
+    }
+
+    .hero-message {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .hero-greeting-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: -29%;
+    }
+
+    .hero-title {
+        margin-left: 0%;
+    }
+
+    .hero-message {
+        margin-left: 0%;
+    }
+
+    .hero-button {
+        font-size: 14px;
+        margin-left: 0%;
+    }
+}
+
+@media (max-width: 780px) {
+    .hero-greeting-container {
+        position: relative;
+        margin-top: -21%;
+    }
+
+    .hero-message {
+        margin-top: 22%;
+        width: 70%;
+    }
+
+    .hero-button {
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 550px) {
+    .hero-greeting-container {
+        margin-top: -22%;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero-title {
+        font-size: 18px;
+    }
+}

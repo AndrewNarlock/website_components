@@ -1,0 +1,139 @@
+/* Main style structure ------------------------------------------------------------- */
+.about-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1.4px;
+}
+
+.about-break {
+    width: 95%;
+}
+
+/* About restaurant section ------------------------------------------------------------- */
+.about-restaurant-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-header {
+    width: 90%;
+    font-weight: 100;
+    font-size: 18px;
+    margin: 50px 0px 25px 0px;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: 50px 0px 50px 0px;
+}
+
+.about-image {
+    width: 100%;
+}
+
+.about-message {
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+/* About the chefs section ---------------------------------------------------------------- */
+.about-chef-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chef-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.chef-reverse {
+    flex-direction: row-reverse;
+}
+
+.chef-image {
+    border-radius: 50%;
+    width: 25%;
+    margin: 50px 0px 50px 0px;
+}
+
+.chef-message-container {
+    width: 45%;
+    margin: 50px 0px 50px 0px;
+}
+
+.chef-title {
+    font-size: 16px;
+    margin-bottom: 25px;
+    letter-spacing: 1.4px;
+}
+
+.chef-message {
+    font-size: 16px;
+    letter-spacing: 1.4px;
+}
+
+
+@media (max-width: 1400px) {
+    .image-container {
+        width: 75%;
+    }
+
+    .chef-container {
+        width: 100%;
+    }
+
+    .chef-image {
+        width: 35%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .chef-container {
+        flex-direction: column;
+    }
+
+    .chef-image {
+        margin: 50px 0px 25px 0px;
+        width: 50%;
+    }
+
+    .chef-reverse {
+        margin-bottom: 0px;
+    }
+
+    .chef-message-container {
+        width: 80%;
+        margin: 0px 0px 50px 0px;
+    }
+}
+
+@media (max-width: 600px) {
+    .image-container {
+        width: 95%;
+    }
+
+    .chef-image {
+        margin: 50px 0px 50px 0px;
+        width: 80%;
+    }
+
+    .chef-message-container {
+        width: 90%;
+        margin: 0px 0px 50px 0px;
+        text-align: center;
+    }
+}

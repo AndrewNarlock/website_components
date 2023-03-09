@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Restaurant Template Menus</title>
+    <meta name="description" content="Menu page templates for restaurant website.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../styles/app.css">
+    <link rel="stylesheet" href="../styles/navigation.css">
+    <link rel="stylesheet" href="../styles/menus/menus.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+</head>
+
+<body>
+    <nav class="navigation">
+        <div class="navigation-wrapper">
+            <img src="../styles/pictures/icon-tiny.jpg" alt="Empty navigation icon." class="navigation-icon">
+
+            <ul class="navigation-menu">
+                <li class="navigation-link-holder"><a href="../index.html" class="navigation-link">HOME</a></li>
+                <li class="navigation-link-holder"><a href="menus.html" class="navigation-link">MENU</a></li>
+                <li class="navigation-link-holder"><a href="about.html" class="navigation-link">ABOUT</a></li>
+                <li class="navigation-link-holder"><a href="contact.html" class="navigation-link">CONTACT</a></li>
+            </ul>
+
+            <button class="menu-collapser">
+                <hr class="hamburger-patty">
+                <hr class="hamburger-patty">
+                <hr class="hamburger-patty">
+            </button>
+        </div>
+
+        <ul class="navigation-menu-collapse">
+            <li class="navigation-link-holder-collapse"><a href="../index.html" class="navigation-link-collapse">HOME</a></li>
+            <li class="navigation-link-holder-collapse"><a href="menus.html" class="navigation-link-collapse">MENU</a></li>
+            <li class="navigation-link-holder-collapse"><a href="about.html" class="navigation-link-collapse">ABOUT</a></li>
+            <li class="navigation-link-holder-collapse"><a href="contact.html" class="navigation-link-collapse">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <main class="menus-container">
+        <section class="menu-tab-holder">
+            <button class="menu-tab menu-one-tab">Menu 1</button>
+            <button class="menu-tab menu-two-tab">Menu 2</button>
+            <button class="menu-tab menu-three-tab">Drinks</button>
+        </section>
+
+        <article class="menu-content menu-one">
+            <h2 class="menu-heading">Appetizers</h2>
+            <hr class="menu-break">
+            <div class="menu-one-container-one menu-container"></div>
+            <hr class="menu-break">
+            <h2 class="menu-heading">Courses</h2>
+            <hr class="menu-break">
+            <div class="menu-one-container-two menu-container"></div>
+        </article>
+
+
+        <article class="menu-content menu-two">
+            <h2 class="menu-heading">Appetizers 2</h2>
+            <hr class="menu-break">
+            <div class="menu-two-container-one menu-container"></div>
+            <hr class="menu-break">
+            <h2 class="menu-heading">Courses 2</h2>
+            <hr class="menu-break">
+            <div class="menu-two-container-two menu-container"></div>
+        </article>
+
+        <article class="menu-content menu-three">
+            <h2 class="menu-heading">Drinks 1</h2>
+            <hr class="menu-break">
+            <div class="menu-three-container-one menu-container"></div>
+            <hr class="menu-break">
+            <h2 class="menu-heading">Drinks 2</h2>
+            <hr class="menu-break">
+            <div class="menu-three-container-two menu-container"></div>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <hr class="footer-break">
+            <p class="copyright">© 2023 Restaurant</p>
+            <p class="footer-info">9999 Lorem Street, Ipsum, WA 99999 -
+                <a href="mailto:narlocka@gmail.com" class="email-link">email</a> -
+                Designed by: Andrew Narlock 2023
+            </p>
+        </div>
+    </footer>
+
+    <script src="../scripts/navigation.js" async defer></script>
+    <script src="../scripts/menudata.js" async defer></script>
+    <script src="../scripts/menus.js" async defer></script>
+</body>
+
+</html>

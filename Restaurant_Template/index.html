@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Restaurant Design Templates</title>
+    <meta name="description" content="Template for basic restaurant website.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/app.css">
+    <link rel="stylesheet" href="styles/navigation.css">
+    <link rel="stylesheet" href="styles/home/hero.css">
+    <link rel="stylesheet" href="styles/home/updates.css">
+    <link rel="stylesheet" href="styles/home/about.css">
+    <link rel="stylesheet" href="styles/home/carousel.css">
+    <link rel="stylesheet" href="styles/home/info.css">
+    <link rel="stylesheet" href="styles/footer.css">
+</head>
+
+<body>
+    <nav class="navigation">
+        <div class="navigation-wrapper">
+            <img src="styles/pictures/icon-tiny.jpg" alt="Empty navigation icon." class="navigation-icon">
+
+            <ul class="navigation-menu">
+                <li class="navigation-link-holder"><a href="index.html" class="navigation-link">HOME</a></li>
+                <li class="navigation-link-holder"><a href="views/menus.html" class="navigation-link">MENU</a></li>
+                <li class="navigation-link-holder"><a href="views/about.html" class="navigation-link">ABOUT</a></li>
+                <li class="navigation-link-holder"><a href="views/contact.html" class="navigation-link">CONTACT</a></li>
+            </ul>
+
+            <button class="menu-collapser">
+                <hr class="hamburger-patty">
+                <hr class="hamburger-patty">
+                <hr class="hamburger-patty">
+            </button>
+        </div>
+
+        <ul class="navigation-menu-collapse">
+            <li class="navigation-link-holder-collapse"><a href="index.html" class="navigation-link-collapse">HOME</a></li>
+            <li class="navigation-link-holder-collapse"><a href="views/menus.html" class="navigation-link-collapse">MENU</a></li>
+            <li class="navigation-link-holder-collapse"><a href="views/about.html" class="navigation-link-collapse">ABOUT</a></li>
+            <li class="navigation-link-holder-collapse"><a href="views/contact.html" class="navigation-link-collapse">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero-image-container">
+        <img src="styles/pictures/Empty_hero_image.jpg" alt="Empty hero image." class="hero-image">
+        <div class="hero-greeting-container">
+            <h1 class="hero-title">Restaurant Name</h1>
+            <p class="hero-message">Welcome message. Lorem ipsum dolor sit amet consectetur,
+                adipisicing elit. Nemo quisquam suscipit pariatur quidem?</p>
+            <a href="views/menus.html">
+                <button class="hero-button">View Menu</button>
+            </a>
+        </div>
+    </section>
+
+    <main class="home-content">
+        <section class="updates-container">
+            <hr class="home-break">
+            <h2 class="update-title">Call for Reservations:</h2>
+            <p class="update-message">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Eligendi at, veniam.</p>
+            <h2 class="update-title">Holiday Business Hours:</h2>
+            <p class="update-message">Tuesday through Saturday 11:30am - 9pm
+                <br>
+                Closed on Sundays and Mondays
+            </p>
+            <h2 class="update-title">To-Go Orders:</h2>
+            <p class="update-message">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Ullam vel voluptates quam modi dignissimos vitae neque nam cumque id laboriosam nobis,
+                pariatur corrupti laborum debitis illo tempora aspernatur voluptatibus dolorem!</p>
+            <hr class="home-break">
+        </section>
+
+        <section class="about-container">
+            <img src="styles/pictures/Empty_image.jpg" loading="lazy" alt="Empty about image." class="about-image">
+            <div class="about-text-container">
+                <h2 class="about-title">About the Chef:</h2>
+                <p class="about-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Praesentium provident animi quis beatae omnis. Minima dolores cupiditate repellendus
+                    mollitia voluptatibus recusandae, sapiente suscipit dolorem dignissimos sint nemo
+                    doloribus impedit est. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Praesentium provident animi quis beatae omnis. Minima dolores cupiditate repellendus
+                    mollitia voluptatibus recusandae, sapiente suscipit dolorem dignissimos sint nemo
+                    doloribus impedit est.</p>
+            </div>
+        </section>
+
+        <section class="carousel">
+            <hr class="home-break">
+            <p class="carousel-message">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Iure nesciunt, magni natus, explicabo, tenetur laudantium quod vitae eligendi
+                obcaecati sed illum! Modi tempore delectus aspernatur praesentium deleniti optio
+                asperiores atque!</p>
+
+            <div class="carousel-container">
+                <button class="carousel-left carousel-button">L</button>
+                <div class="image-container"></div>
+                <button class="carousel-right carousel-button">R</button>
+            </div>
+
+            <div class="button-container-small">
+                <button class="carousel-left-small carousel-button-small">L</button>
+                <button class="carousel-right-small carousel-button-small">R</button>
+            </div>
+            <hr class="home-break-two">
+        </section>
+
+        <section class="business-info-container">
+            <div class="business-info">
+                <h3 class="info-title">Location</h3>
+                <address>
+                    <p class="info-content">9999 Lorem Street, <br>
+                        Ipsum, WA <br>
+                        99999
+                    </p>
+                </address>
+            </div>
+            <div class="business-info">
+                <h3 class="info-title">Hours</h3>
+                <p class="info-content">Tuesday through Saturday <br>
+                    11:30am - 9pm <br>
+                    Closed on Sundays and Mondays
+                </p>
+            </div>
+            <div class="business-info">
+                <h3 class="info-title">Contact</h3>
+                <p class="info-content">555-555-5555 <br>
+                    <a href="mailto:narlocka@gmail.com" class="email-link">Email</a> <br>
+                    Social Media Links
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <hr class="footer-break">
+            <p class="copyright">© 2023 Restaurant</p>
+            <p class="footer-info">9999 Lorem Street, Ipsum, WA 99999 -
+                <a href="mailto:narlocka@gmail.com" class="email-link">email</a> -
+                Designed by: Andrew Narlock 2023
+            </p>
+        </div>
+    </footer>
+
+    <script src="scripts/navigation.js" async defer></script>
+    <script src="scripts/carouseldata.js" async defer></script>
+    <script src="scripts/carousel.js" async defer></script>
+</body>
+
+</html>
