@@ -1,0 +1,73 @@
+.pages-content-image {
+    width: 100%;
+    height: fit-content;
+    padding: 10% 0px 10% 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('../pics/Empty_hero_image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pages-content-message-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    letter-spacing: 1.4px;
+    width: 60%;
+    padding: 50px 0px 50px 0px;
+}
+
+.pages-content-title {
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.pages-content-message {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 16px;
+    width: 80%;
+}
+
+.next-page {
+    margin: 50px 25px 0px 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    letter-spacing: 1.4px;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+}
+
+.button-holder {
+    display: flex;
+    
+}
+
+.next-page:hover {
+    background-color: #e5e5e5;
+}
+
+@media (max-width: 1200px) {
+    .pages-content-message-wrapper {
+        width: 85%;
+    }
+
+    .pages-content-message-wrapper {
+        margin: 10% 0px 10% 0px;
+    }
+}
+
+@media (max-width: 550px) {
+    .next-page {
+        font-size: 14px;
+        margin: 50px 10px 0px 10px;
+    }
+}
