@@ -16,7 +16,8 @@ A demo of the template can be viewed here: https://andrewnarlock.github.io/Resta
 
 
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------***Brochure Website Template:***
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+***Brochure Website Template:***
 This is a template for a basic brochure or informational website. It is fully responsive and accessible and the styles can be easily adjusted. 
 
 A demo of the template can be viewed here: https://andrewnarlock.github.io/Brochure-Website-Template/
