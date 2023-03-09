@@ -66,4 +66,20 @@ codepen link: https://codepen.io/narlocka/pen/poOPmmp
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+***Restaurant Website Template:***
+This is a template for a basic restaurant website. It is fully responsive and accessible and is built to be easily restyled. Each component can be moved around or removed completely. Menus are updated automatically by adding food information into the menudata.js file. 
+
+A demo of the template can be viewed here: https://andrewnarlock.github.io/Restaurant-Website-Template/
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------***Brochure Website Template:***
+This is a template for a basic brochure or informational website. It is fully responsive and accessible and the styles can be easily adjusted. 
+
+A demo of the template can be viewed here: https://andrewnarlock.github.io/Brochure-Website-Template/
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 I am planning on adding more components and more styles to this library.
