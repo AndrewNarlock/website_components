@@ -68,9 +68,19 @@ codepen link: https://codepen.io/narlocka/pen/poOPmmp
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-***Dropdown Menu:***
+***Dropdown Basic:***
 
- codepen link: https://codepen.io/narlocka/pen/oNqrdZR
+This dropdown menu component is easy to copy, paste, and restyle into any website. This dropdown will push all content below it down when opened. Links can be added and removed from the menu and it will update automatically.
+
+ codepen link: https://codepen.io/narlocka/pen/eYLyepz
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+***Dropdown Overlap:***
+
+This dropdown menu component is easy to copy, paste, and restyle into any website. This dropdown will overlap any content below it down when opened. Links can be added and removed from the menu and it will update automatically.
+
+ codepen link: https://codepen.io/narlocka/pen/mdGpqeG
 
 
 
