@@ -7,7 +7,7 @@ The components are built in vanilla HTML, CSS, JavaScript with no dependencies.
 Each component and template is made so that they can be copied, pasted, and redesigned into any website.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-***Express Server Basic Template:***
+***Express Server Empty Template:***
 This is a basic template for building applications in Express / Node. This template does not include the Node Modules folder, which will need to be added. To use, download the folder and install the express and ejs packages from npm by typing 
 ```
 npm i express ejs
